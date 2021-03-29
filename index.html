@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Browse in darkness.</title>
+<title id="t">Browse in darkness</title>
 <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">  
-<link rel='icon' href='https://lb123658.github.io/cebolla/favicon.png' type='image/png'/ >
+<link rel='icon' href='https://lb123658.github.io/cebolla/favicon.png' type='image/png'/>
 
 <style>
 body {
@@ -71,18 +71,182 @@ font-size: 18px;
 cursor: default;
 user-select: none;
 }
+#pre {
+visibility: visible;
+}
+#topLogo {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 70px;
+height: 70px;
+cursor: pointer;
+}
+#query {
+position: absolute;
+top: 1px;
+left: 80px;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 20px;
+cursor: default;
+user-select: none;
+}
+.link {
+color: #f3e3c2;
+height: 100px;
+width: 90%;
+font-family: 'New Tegomin', serif;
+font-size: 20px;
+cursor: pointer;
+border: none;
+background: #282828;
+text-align: left;
+}
+.link:hover {
+background-color: #4a4a4a;
+}
+#duck {
+position: absolute;
+top: 100px;
+left: 5%;
+}
+#startpage {
+position: absolute;
+top: 200px;
+left: 5%;
+}
+#qwant {
+position: absolute;
+top: 300px;
+left: 5%;
+}
+#ecosia {
+position: absolute;
+top: 400px;
+left: 5%;
+}
+#com {
+position: absolute;
+top: 500px;
+left: 5%;
+}
+#ru {
+position: absolute;
+top: 600px;
+left: 5%;
+}
+#site {
+position: absolute;
+top: 700px;
+left: 5%;
+}
+#de {
+position: absolute;
+top: 800px;
+left: 5%;
+}
+#cn {
+position: absolute;
+top: 900px;
+left: 5%;
+}
+#uk {
+position: absolute;
+top: 1000px;
+left: 5%;
+}
+#results {
+visibility: hidden;
+}
 </style>
 </head>
 <body>
+<div id="pre">
 <p id="p">
 <img src="https://lb123658.github.io/cebolla/candle.png" id="foto" /></p>
 <input type="text" id="search">
-<button id="go"><span class="material-icons">
+<button id="go" onclick="myFunction()"><span class="material-icons">
 search
 </span></button>
 <p id="quote">Browse in darkness.</p>
+</div>
 
+<div id="results">
+<img src="https://lb123658.github.io/cebolla/favicon.png" id="topLogo" onclick="location.reload()"/>
+<p id="query">Browse in darkness.</p>
+<a href="https://duckduckgo.com" target="_blank" id="duckA">
+<button class="link" id="duck">DuckDuckGo</button></a>
+
+<a href="https://startpage.com" target="_blank" id="startpageA">
+<button class="link" id="startpage">Startpage</button></a>
+
+<a href="https://qwant.com" target="_blank" id="qwantA">
+<button class="link" id="qwant">Qwant</button></a>
+
+<a href="https://ecosia.org" target="_blank" id="ecosiaA">
+<button class="link" id="ecosia">Ecosia</button></a>
+
+<a href="https://www.verisign.com/en_US/domain-names/com-domain-names/index.xhtml" target="_blank" id="comA">
+<button class="link" id="com">.com registry</button></a>
+
+<a href="https://cctld.ru/en/" target="_blank" id="ruA">
+<button class="link" id="ru">.ru registry</button></a>
+
+<a href="#" target="_blank" id="siteA">
+<button class="link" id="site">Browse in darkness</button></a>
+
+<a href="https://www.denic.de/en/" target="_blank" id="deA">
+<button class="link" id="de">.de registry</button></a>
+
+<a href="http://www.cnnic.cn/" target="_blank" id="cnA">
+<button class="link" id="cn">.cn registry</button></a>
+
+<a href="https://www.nominet.uk/" target="_blank" id="ukA">
+<button class="link" id="uk">.co.uk registry</button></a>
+</div>
+
+
+<script>
+function myFunction() {
+var input = document.getElementById("search");
+document.getElementById("pre").style.visibility = "hidden";
+document.getElementById("results").style.visibility = "visible";
+//search results
+document.getElementById("query").innerHTML = input.value;
+//duckduckgo link
+document.getElementById("duck").innerHTML = input.value + " at DuckDuckGo";
+document.getElementById("duckA").href = "https://duckduckgo.com/?q=" + input.value;
+//startpage link
+document.getElementById("startpage").innerHTML = "Startpage - " + input.value;
+document.getElementById("startpageA").href = "https://startpage.com/sp/search?q=" + input.value;
+//qwant link
+document.getElementById("qwant").innerHTML = "Qwant - " + input.value;
+document.getElementById("qwantA").href = "https://www.qwant.com/?q=" + input.value;
+//ecosia link
+document.getElementById("ecosia").innerHTML = "Ecosia - " + input.value;
+document.getElementById("ecosiaA").href = "https://www.ecosia.org/search?q=" + input.value;
+//com link
+document.getElementById("com").innerHTML = input.value + ".com";
+document.getElementById("comA").href = "https://" + input.value + ".com";
+//ru link
+document.getElementById("ru").innerHTML = input.value + ".ru";
+document.getElementById("ruA").href = "https://" + input.value + ".ru";
+//https link
+document.getElementById("site").innerHTML = input.value + " - official site";
+document.getElementById("siteA").href = "https://" + input.value;
+//de link
+document.getElementById("de").innerHTML = input.value + ".de";
+document.getElementById("deA").href = "https://" + input.value + ".de";
+//cn link
+document.getElementById("cn").innerHTML = input.value + ".cn";
+document.getElementById("cnA").href = "https://" + input.value + ".cn";
+//uk link
+document.getElementById("uk").innerHTML = input.value + ".co.uk";
+document.getElementById("ukA").href = "https://" + input.value + ".co.uk";
+//title change
+document.getElementById("t").innerHTML = "Search results";
+}
+</script>
 </body>
 </html>
-
-
