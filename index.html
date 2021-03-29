@@ -11,6 +11,7 @@
 <style>
 body {
   background-color: #282828;
+  overflow: hidden;
 }
 
 #p {
@@ -161,7 +162,7 @@ visibility: hidden;
 }
 </style>
 </head>
-<body>
+<body id="body">
 <div id="pre">
 <p id="p">
 <img src="https://lb123658.github.io/cebolla/candle.png" id="foto" /></p>
@@ -246,6 +247,8 @@ document.getElementById("uk").innerHTML = input.value + ".co.uk";
 document.getElementById("ukA").href = "https://" + input.value + ".co.uk";
 //title change
 document.getElementById("t").innerHTML = "Search results";
+//scrolling allowed
+document.getElementById("body").style.overflow = "visible";
 }
 </script>
 </body>
