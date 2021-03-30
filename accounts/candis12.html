@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- candis12 account -->
+<html>
+<head>
+<title it="t">Nightcoin wallet</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
+<link rel='icon' href='https://lb123658.github.io/cebolla/favicon.png' type='image/png'/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<style>
+* {
+user-select: none;
+cursor: default;
+font-family: 'New Tegomin', serif;
+}
+body {
+background: #282828;
+}
+#title {
+position: absolute;
+top: 0px;
+left: 80px;
+font-size: 20px;
+color: #ffd700;
+}
+#logo {
+position: absolute;
+top: 5px;
+left: 5px;
+width: 60px;
+height: 60px;
+}
+.buy {
+height: 50px;
+border-radius: 7px;
+border: 2px solid #282828;
+font-size: 20px;
+background: #ffd700;
+font-family: arial;
+cursor: default;
+}
+.buy:hover {
+border: 2px solid #ffd700;
+}
+#wallet {
+position: absolute;
+top: 10px;
+right: 10px;
+height: 40px;
+color: #282828;
+}
+.material-icons {
+cursor: default;
+font-size: 30px;
+}
+#number {
+position: absolute;
+top: 10px;
+right: 60px;
+height: 40px;
+color: #282828;
+}
+#save {
+position: absolute;
+top: 10px;
+right: 110px;
+height: 40px;
+color: #282828;
+}
+#store {
+position: absolute;
+top: 10px;
+right: 160px;
+height: 40px;
+color: #282828;
+}
+#setDiv {
+position: absolute;
+top: 60px;
+right: 10px;
+height: 100px;
+width: 200px;
+background: #3b3a3a;
+border-radius: 10px;
+text-align: center;
+visibility: hidden;
+color: #ffd700;
+font-family: arial;
+}
+a {
+color: #ffd700;
+text-decoration: none;
+font-family: arial;
+}
+a:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+#setP {
+color: #ffd700;
+font-family: arial;
+font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+<p id="title">Nightcoin wallet</p>
+<img src="https://lb123658.github.io/cebolla/favicon.png" id="logo"/>
+<button id="wallet" class="buy"><span class="material-icons" title="Savings">savings</span></button>
+<button id="number" class="buy" onclick="showSettings()"><span class="material-icons" title="Settings">manage_accounts</span></button>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe__ak24RahgaOxmsbtrf4CcflsIidsHyc_7qEl1CBMx6fkhA/viewform" target="_blank">
+<button id="save" class="buy" title="Save your profits"><span class="material-icons">cloud_upload</span></button></a>
+<button id="store" class="buy"><span class="material-icons" title="View store">local_offer</span></button>
+
+<div id="setDiv">
+<p id="setP">candis12<br><br><a href="https://lb123658.github.io/cebolla/currency">Sign out</a></p>
+</div>
+
+
+<script>
+function showSettings() {
+document.getElementById("setDiv").style.visibility = "visible";
+}
+</script>
+</body>
+</html>
