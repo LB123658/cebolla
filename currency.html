@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nightcoin</title>
+<title>Nightcoin monetization station</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
@@ -24,8 +24,8 @@ font-size: 20px;
 }
 #logo {
 position: absolute;
-top: -15px;
-left: -70px;
+top: 5px;
+left: 5px;
 width: 60px;
 height: 60px;
 }
@@ -38,7 +38,6 @@ background: #ffd700;
 color: #282828;
 font-size: 70px;
 font-family: arial;
-pointer-events: none;
 }
 #center {
 position: absolute;
@@ -47,31 +46,79 @@ left: 0px;
 width: 100%;
 text-align: center;
 }
-#generate {
-position: absolute;
-bottom: 180px;
-left: 35%;
-width: 30%;
-height: 60px;
-border: 1px solid #f3e3c2;
-font-size: 20px;
-border-radius: 10px;
-background: transparent;
-cursor: pointer;
-}
+
 #generate:hover {
 background: #f3e3c2;
 color: #282828;
 }
+#input {
+position: absolute;
+top: 400px;
+left: 35%;
+width: 30%;
+height: 40px;
+border-radius: 7px;
+border: 2px solid #ffd700;
+font-size: 20px;
+color: #ffd700;
+background: transparent;
+cursor: auto;
+}
+#enter {
+position: absolute;
+top: 470px;
+left: 35%;
+width: 31%;
+height: 40px;
+font-size: 20px;
+border: 1px solid #ffd700;
+background: #ffd700;
+border-radius: 7px;
+cursor: pointer;
+color: #282828;
+font-weight: bold;
+}
+#enter:hover {
+border: 2px solid #ffd700;
+}
+#next {
+position: absolute;
+top: 408px;
+right: 36%;
+width: 40px;
+height: 30px;
+font-family: arial;
+color: #ffd700;
+font-size: 18px;
+z-index: 1;
+border: 1px solid #ffd700;
+border-radius: 7px;
+background: #282828;
+cursor: pointer;
+}
 </style>
 </head>
 <body>
-<p id="title">Nightcoin, buy in darkness.
+<p id="title">Nightcoin, buy in darkness.</p>
 <img src="https://lb123658.github.io/cebolla/favicon.png" id="logo"/>
-<p id="center">
-<button id="circleA">₦10</button></p>
-  <a href="store.html">
-    <button id="generate">Generate Nightcoin</button></a>
+<p id="center"><button id="circleA" onmouseover="hover()" onmouseout="unhover()">₦</button></p>
 
+<input type="text" id="input" placeholder="Username...">
+<a href="https://lb123658.github.io/cebolla/currency" id="enterA">
+<button id="enter">Sign in</button>
+</a>
+<button id="next" onclick="signIn()">➔</button>
+<script>
+function hover() {
+document.getElementById("title").innerHTML = "Nightcoin, the privacy based  cryptocurrency.";
+}
+function unhover() {
+document.getElementById("title").innerHTML = "Nightcoin, buy in darkness.";
+}
+function signIn() {
+var input = document.getElementById("input");
+document.getElementById("enterA").href = "https://lb123658.github.io/cebolla/accounts/" + input.value;
+}
+</script>
 </body>
 </html>
