@@ -1,16 +1,19 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nightcoin store</title>
+<title>Nightcoin Store</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
 <link rel='icon' href='https://lb123658.github.io/cebolla/favicon.png' type='image/png'/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <style>
 * {
 user-select: none;
 cursor: default;
 font-family: 'New Tegomin', serif;
-color: #f3e3c2;
 }
 body {
 background: #282828;
@@ -20,6 +23,7 @@ position: absolute;
 top: 0px;
 left: 80px;
 font-size: 20px;
+color: #ffd700;
 }
 #logo {
 position: absolute;
@@ -28,63 +32,60 @@ left: 5px;
 width: 60px;
 height: 60px;
 }
-#cash {
-position: absolute;
-top: 5px;
-right: 5px;
-height: 50px;
-border-radius: 7px;
-border: 1px solid #ffd700;
-color: #282828;
-font-size: 20px;
-background: #ffd700;
-font-family: arial;
-cursor: pointer;
-}
-#cash:hover {
-opacity: 0.7;
-}
-#warning {
-position: absolute;
-top: 200px;
-left: 0px;
-width: 100%;
-text-align: center;
-font-size: 30px;
-user-select: none;
-}
-#buy {
+.buy {
 height: 50px;
 border-radius: 7px;
 border: 2px solid #282828;
-color: #282828;
 font-size: 20px;
 background: #ffd700;
 font-family: arial;
-cursor: pointer;
+cursor: default;
 }
-#buy:hover {
+.buy:hover {
 border: 2px solid #ffd700;
+}
+#wallet {
+position: absolute;
+top: 10px;
+right: 10px;
+height: 40px;
+color: #282828;
+}
+.material-icons {
+cursor: default;
+font-size: 30px;
+}
+#number {
+position: absolute;
+top: 10px;
+right: 60px;
+height: 40px;
+color: #282828;
+}
+#save {
+position: absolute;
+top: 10px;
+right: 110px;
+height: 40px;
+color: #282828;
+}
+#store {
+position: absolute;
+top: 10px;
+right: 160px;
+height: 40px;
+color: #282828;
 }
 </style>
 </head>
 <body>
-<p id="title">Nightcoin, buy in darkness.</p>
+<p id="title">Nightcoin Store</p>
 <img src="https://lb123658.github.io/cebolla/favicon.png" id="logo"/>
-<button id="cash">₦10</button>
-<p id="warning">This currency is unavailable right now.<br><br>
-<a href="https://lb123658.github.io/cebolla/sandwich.png" download id="download">
-<button id="buy" onclick="buy()">Buy a virtual sandwich for ₦10</button></a></p>
-
-
+<button id="wallet" class="buy"><span class="material-icons" title="Savings">savings</span></button>
+<button id="number" class="buy"><span class="material-icons" title="Settings">manage_accounts</span></button>
+<button id="save" class="buy" title="Save your profits"><span class="material-icons">cloud_upload</span></button>
+<button id="store" class="buy"><span class="material-icons" title="View store">local_offer</span></button>
 <script>
-function buy() {
-document.getElementById("cash").innerHTML = "₦0";
-document.getElementById("warning").innerHTML = "Virtual sandwich purchased.";
-document.getElementById("download").href = "https://lb123658.github.io/cebolla/currency";
-document.getElementById("cash").innerHTML = "₦0";
-document.getElementById("buy").innerHTML = "Continue";
-}
 </script>
 </body>
 </html>
