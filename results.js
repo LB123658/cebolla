@@ -1,5 +1,5 @@
 // for specific websites
-var s = document.getElementById("s-span");
+var s = document.getElementById("s");
 var sa = document.getElementById("sa");
 if (location.search.split("=")[1] == "google") {
 document.getElementById("com").innerHTML = "Google - search the world's information <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
