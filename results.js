@@ -202,9 +202,5 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
 } else {
   ;
 }
-// for launch button
-if (s.innerHTML == "Search") {
-  document.getElementById("s-button").style.visibility = "hidden";
-} else {
-  document.getElementById("s-button").style.visibility = "visible";
-}
+// launch button
+document.getElementById("s-button").style.visibility = "visible";
