@@ -100,7 +100,7 @@ background: #282828;
 float: right;
 visibility: visible;
 }
-#s {
+#s-button {
 position: absolute;
 top: 10px;
 right: 10px;
@@ -112,14 +112,13 @@ background: #282828;
 font-size: 22px;
 border: none;
 cursor: pointer;
-width: 120px;
 z-index: 1;
 visibility: hidden;
 }
-#s:hover {
+#s-button:hover {
 background: #595858;
 }
-#s:focus {
+#s-button:focus {
 border: 1px solid lightgrey;
 }
 </style>
@@ -161,7 +160,7 @@ border: 1px solid lightgrey;
 </div>
 
 <a href="https://lb123658.github.io/cebolla/?page=new" target="_blank" id="sa">
-<button id="s"><span id="s-span">Search</span> <span class="material-icons">launch</span></button></a>
+<button id="s-button"><span id="s">Search</span> <span class="material-icons">launch</span></button></a>
 <script>
 if (window.location.search == "") {
 alert("You did not search anything but maybe these results will help");
