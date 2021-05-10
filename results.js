@@ -200,7 +200,7 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
 } else {
-  ;
+  s.innerHTML = "Search";
 }
 // launch button
 document.getElementById("s-button").style.visibility = "visible";
