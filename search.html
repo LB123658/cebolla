@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -100,6 +101,28 @@ background: #282828;
 float: right;
 visibility: visible;
 }
+#s {
+position: absolute;
+top: 10px;
+right: 10px;
+height: 40px;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+border-radius: 6px;
+background: #282828;
+font-size: 22px;
+border: none;
+cursor: pointer;
+width: 120px;
+z-index: 1;
+visibility: hidden;
+}
+#s:hover {
+background: #595858;
+}
+#s:focus {
+border: 1px solid lightgrey;
+}
 </style>
 </head>
 <body>
@@ -138,6 +161,8 @@ visibility: visible;
 <button class="link" id="uk">.co.uk registry</button></a>
 </div>
 
+<a href="https://lb123658.github.io/cebolla/?page=new" target="_blank" id="sa">
+<button id="s">Search <span class="material-icons">launch</span></button></a>
 <script>
 if (window.location.search == "") {
 alert("You did not search anything but maybe these results will help");
