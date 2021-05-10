@@ -77,14 +77,6 @@ user-select: none;
 #pre {
 visibility: visible;
 }
-#topLogo {
-position: absolute;
-top: 0px;
-left: 0px;
-width: 70px;
-height: 70px;
-cursor: pointer;
-}
 input:focus {
 outline-width: 0;
 }
@@ -97,11 +89,15 @@ outline-width: 0;
       color: #f3e3c2;
       font-family: 'New Tegomin', serif;
       font-size: 16px;
-      cursor: default;
+      cursor: pointer;
       user-select: none;
 }
 #new:hover {
       text-decoration: underline;
+}
+@keyframes animate {
+  0% {transform: translate(0px, 80px); opacity: 0.0;}
+  100% {transform: translate(0px, 0px); opacity: 1;}
 }
 </style>
 <body>
@@ -116,6 +112,17 @@ search
 </span></button>
 <p id="quote">Browse in darkness.</p>
 </div>
-<p id="new">NEW: results are marked based on safety and privacy levels.</p>
+<a href="about">
+<p id="new">NEW: results are marked based on safety and privacy levels.</p></a>
+<script>
+var x = document.getElementById("quote");
+if (window.location.search == "?page=new") {
+x.animationName = "animate";
+x.animationDuration = "1.2s";
+x.animationIterationCount = "1";
+} else {
+;
+}
+</script>
 </body>
 </html>
