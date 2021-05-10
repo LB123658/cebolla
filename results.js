@@ -127,4 +127,6 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
 } else if (location.search.split("=")[1] == "insta") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
-} 
+} else {
+  ;
+}
