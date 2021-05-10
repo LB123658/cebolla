@@ -73,6 +73,9 @@ font-family: 'New Tegomin', serif;
 font-size: 18px;
 cursor: default;
 user-select: none;
+animation-name: animate;
+animation-duration: 1.2s;
+animation-iteration-count: 1;
 }
 #pre {
 visibility: visible;
@@ -115,14 +118,9 @@ search
 <a href="about">
 <p id="new">NEW: results are marked based on safety and privacy levels.</p></a>
 <script>
-var x = document.getElementById("quote");
+var x = document.getElementById("search");
 if (window.location.search == "?page=new") {
-x.animationName = "animate";
-x.animationDuration = "1.2s";
-x.animationIterationCount = "1";
-} else {
-;
-}
+x.placeholder = "Search in complete privacy"
 </script>
 </body>
 </html>
