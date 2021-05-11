@@ -1,3 +1,5 @@
-if (window.innerWidth < 500) {
-    window.location.search = "?device=mobile";
+if ($(window).width() < 500) {
+  window.location.search = "?device=mobile";
+} else {
+    ;
 }
