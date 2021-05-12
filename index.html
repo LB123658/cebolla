@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -105,31 +106,81 @@ outline-width: 0;
   0% {transform: translate(0px, 80px); opacity: 0.0;}
   100% {transform: translate(0px, 0px); opacity: 1;}
 }
+#menu {
+background: transparent;
+border: none;
+border-radius: 2px;
+color: #f3e3c2;
+position: absolute;
+top: 15px;
+right: 10px;
+}
+#menu:hover {
+cursor: pointer;
+background: #595858;
+}
+#menuDiv {
+position: absolute;
+top: 50px;
+right: 10px;
+width: 100px;
+height: 90px;
+background: #383838;
+visibility: hidden;
+}
 #s {
 position: absolute;
-top: 10px;
-left: 10px;
-height: 40px;
+left: 0px;
+width: 100px;
+height: 30px;
+top: 30px;
+background: transparent;
 color: #f3e3c2;
 font-family: 'New Tegomin', serif;
-border-radius: 6px;
-background: transparent;
-font-size: 22px;
+font-size: 16px;
 border: none;
 cursor: pointer;
-width: 120px;
+text-align: right;
+}
+#privacy {
+position: absolute;
+left: 0px;
+width: 100px;
+height: 30px;
+top: 60px;
+background: transparent;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: right;
 }
 #s:hover {
 background: #595858;
 }
-#s:focus {
-border: 1px solid lightgrey;
+#privacy:hover {
+background: #595858;
+}
+#close {
+position: absolute;
+right: 0px;
+height: 30px;
+top: 0px;
+background: transparent;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: right;
+}
+#close:hover {
+background: #595858;
 }
 </style>
 <body>
 <div id="pre">
-<a href="https://lb123658.github.io/cebolla/about">
-<button id="s">About</button></a>
 <p id="p">
 <img src="https://lb123658.github.io/cebolla/candle.png" id="foto"></p>
 <form id="form" action="https://lb123658.github.io/cebolla/search">
@@ -142,12 +193,36 @@ search
 </div>
 <a href="about">
 <p id="new">NEW: results are marked based on safety and privacy levels.</p></a>
+
+<button id="menu" onclick="openDiv()"><span class="material-icons" style="font-size: 30px;">menu</span></button>
+<div id="menuDiv">
+<button id="close" onclick="hideDiv()"><span class="material-icons" style="font-size: 30px;">close</span></button>
+<a href="https://lb123658.github.io/cebolla/about">
+<button id="s">About</button></a>
+<a href="https://lb123658.github.io/g-browser/privacy">
+<button id="privacy">Privacy</button></a>
+</div>
 <script>
+// other versions of page
 var search = document.getElementById("search");
 if (window.location.search == "?page=new") {
 search.placeholder = "Search in complete privacy"
 } else if (window.location.search == "?device=mobile") {
-      location.replace("https://lb123658.github.io/cebolla/mobile");
+location.replace("https://lb123658.github.io/cebolla/mobile");
+} else if (window.location.search == "?l=es") {
+document.getElementById("quote").innerHTML = "Buscar en la oscuridad.";
+document.getElementById("new").style.display = "none";
+document.getElementById("s").innerHTML = "Acerca de";
+document.getElementById("privacy").innerHTML = "La Privacidad";
+}
+// focus search bar
+document.getElementById("search").focus();
+// open and hide menu
+function openDiv() {
+document.getElementById("menuDiv").style.visibility = "visible";
+}
+function hideDiv() {
+document.getElementById("menuDiv").style.visibility = "hidden";
 }
 </script>
 <script src="version.js"></script>
