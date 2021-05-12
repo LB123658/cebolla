@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -203,6 +204,13 @@ document.getElementById("uk").innerHTML = location.search.split("=")[1] + ".co.u
 document.getElementById("ukA").href = "https://" + location.search.split("=")[1] + ".co.uk";
 //title change
 document.getElementById("t").innerHTML = "Search results";
+}
+var fot = location.search.split("=")[1];
+if (fot.split(".")[1] == "com") {
+document.getElementById("comA").href = "https://" + location.search.split("=")[1];
+document.getElementById("com").innerHTML = location.search.split("=")[1];
+} else {
+;
 }
 </script>
 <script src="results.js"></script>
