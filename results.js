@@ -426,6 +426,58 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
   s.innerHTML = "Chrome";
   sa.href = "https://chrome.google.com";
+} else if (location.search.split("=")[1] == "news") {
+  document.getElementById("com").innerHTML = "Google news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://news.google.com";
+  document.getElementById("ru").innerHTML = "New York Times <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("ruA").href = "https://www.nytimes.com";
+  document.getElementById("site").innerHTML = "Washington Post <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("siteA").href = "https://www.washingtonpost.com/";
+  document.getElementById("de").innerHTML = "Apple News <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='More private'>lock</span>";
+  document.getElementById("deA").href = "https://www.apple.com/apple-news/";
+  document.getElementById("cn").innerHTML = "CNN  - Breaking news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("cnA").href = "https://www.cnn.com/";
+  document.getElementById("uk").innerHTML = "BBC news <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+  document.getElementById("ukA").href = "https://www.bbc.com/news";
+} else if (location.search.split("=")[1] == "News") {
+  document.getElementById("com").innerHTML = "Google news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://news.google.com";
+  document.getElementById("ru").innerHTML = "New York Times <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("ruA").href = "https://www.nytimes.com";
+  document.getElementById("site").innerHTML = "Washington Post <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("siteA").href = "https://www.washingtonpost.com/";
+  document.getElementById("de").innerHTML = "Apple News <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='More private'>lock</span>";
+  document.getElementById("deA").href = "https://www.apple.com/apple-news/";
+  document.getElementById("cn").innerHTML = "CNN  - Breaking news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("cnA").href = "https://www.cnn.com/";
+  document.getElementById("uk").innerHTML = "BBC news <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+  document.getElementById("ukA").href = "https://www.bbc.com/news";
+} else if (location.search.split("=")[1] == "current+events") {
+  document.getElementById("com").innerHTML = "Google news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://news.google.com";
+  document.getElementById("ru").innerHTML = "New York Times <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("ruA").href = "https://www.nytimes.com";
+  document.getElementById("site").innerHTML = "Washington Post <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("siteA").href = "https://www.washingtonpost.com/";
+  document.getElementById("de").innerHTML = "Apple News <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='More private'>lock</span>";
+  document.getElementById("deA").href = "https://www.apple.com/apple-news/";
+  document.getElementById("cn").innerHTML = "CNN  - Breaking news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("cnA").href = "https://www.cnn.com/";
+  document.getElementById("uk").innerHTML = "BBC news <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+  document.getElementById("ukA").href = "https://www.bbc.com/news";
+} else if (location.search.split("=")[1] == "breaking+news") {
+  document.getElementById("com").innerHTML = "Google news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://news.google.com";
+  document.getElementById("ru").innerHTML = "New York Times <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("ruA").href = "https://www.nytimes.com";
+  document.getElementById("site").innerHTML = "Washington Post <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("siteA").href = "https://www.washingtonpost.com/";
+  document.getElementById("de").innerHTML = "Apple News <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='More private'>lock</span>";
+  document.getElementById("deA").href = "https://www.apple.com/apple-news/";
+  document.getElementById("cn").innerHTML = "CNN  - Breaking news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>lock</span>";
+  document.getElementById("cnA").href = "https://www.cnn.com/";
+  document.getElementById("uk").innerHTML = "BBC news <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+  document.getElementById("ukA").href = "https://www.bbc.com/news";
 } else {
   s.innerHTML = "Search";
 }
