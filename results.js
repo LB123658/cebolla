@@ -186,19 +186,65 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
   s.innerHTML = "Slides";
   sa.href = "https://slides.google.com/";
 } else if (location.search.split("=")[1] == "vimeo") {
-  document.getElementById("com").innerHTML = "Vimeo - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("com").innerHTML = "Vimeo - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://vimeo.com";
+  s.innerHTML = "Vimeo";
+  sa.href = "https://vimeo.com/";
+} else if (location.search.split("=")[1] == "Vimeo") {
+  document.getElementById("com").innerHTML = "Vimeo - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://vimeo.com";
   s.innerHTML = "Vimeo";
   sa.href = "https://vimeo.com/";
 } else if (location.search.split("=")[1] == "instagram") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
+  s.innerHTML = "Instagram";
+  sa.href = "https://instagram.com";
 } else if (location.search.split("=")[1] == "Instagram") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
+  s.innerHTML = "Instagram";
+  sa.href = "https://instagram.com";
 } else if (location.search.split("=")[1] == "insta") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
+  s.innerHTML = "Instagram";
+  sa.href = "https://instagram.com";
+} else if (location.search.split("=")[1] == "DuckDuckGo") {
+  document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
+  document.getElementById("comA").href = "https://duckduckgo.com";
+  s.innerHTML = "DuckDuckGo";
+  sa.href = "https://duckduckgo.com";
+} else if (location.search.split("=")[1] == "duckduckgo") {
+  document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
+  document.getElementById("comA").href = "https://duckduckgo.com";
+  s.innerHTML = "DuckDuckGo";
+  sa.href = "https://duckduckgo.com";
+} else if (location.search.split("=")[1] == "ddg") {
+  document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
+  document.getElementById("comA").href = "https://start.duckduckgo.com";
+  s.innerHTML = "DuckDuckGo";
+  sa.href = "https://start.duckduckgo.com";
+} else if (location.search.split("=")[1] == "class") {
+  document.getElementById("com").innerHTML = "Google Classroom - Sign in <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://classroom.google.com";
+  s.innerHTML = "Classroom";
+  sa.href = "https://classroom.google.com";
+} else if (location.search.split("=")[1] == "google+chrome") {
+  document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
+  document.getElementById("comA").href = "https://chrome.google.com";
+  document.getElementById("ru").innerHTML = "Download Brave Browser <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='Good privacy, blocks trackers and ads'>lock</span>";
+  document.getElementById("ruA").href = "https://brave.com";
+  document.getElementById("site").innerHTML = "Download Tor Browser <span class='material-icons' style='color: purple; font-size: 30px;' title='Complete anonymity and possible access to dark web'>lock</span>";
+  document.getElementById("siteA").href = "https://torproject.org";
+  document.getElementById("de").innerHTML = "Download Firefox Browser <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='More private'>lock</span>";
+  document.getElementById("deA").href = "https://www.mozilla.org/en-US/firefox/new/";
+  document.getElementById("cn").innerHTML = "See if Google is testing FLoC on you <span class='material-icons' style='color: #3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+  document.getElementById("cnA").href = "https://amifloced.org";
+  document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+  document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
+  s.innerHTML = "Chrome";
+  sa.href = "https://chrome.google.com";
 } else {
   s.innerHTML = "Search";
 }
