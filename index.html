@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- THIS IS THE HOMEPAGE -->
 <head>
 <title id="t">Browse in darkness</title>
 <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
@@ -125,7 +126,7 @@ position: absolute;
 top: 50px;
 right: 10px;
 width: 100px;
-height: 90px;
+height: 120px;
 background: #383838;
 visibility: hidden;
 }
@@ -179,6 +180,84 @@ text-align: right;
 #close:hover {
 background: #595858;
 }
+#extension {
+position: absolute;
+left: 0px;
+width: 100px;
+height: 30px;
+top: 90px;
+background: transparent;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: right;
+}
+#extension:hover {
+background: #595858;
+}
+#getExtension {
+background: transparent;
+border: 1px solid #f3e3c2;
+border-radius: 2px;
+color: #f3e3c2;
+position: absolute;
+top: 15px;
+left: 10px;
+font-size: 20px;
+font-family: 'New Tegomin', serif;
+}
+#getExtension:hover {
+cursor: pointer;
+background: #595858;
+}
+#confirmation {
+position: absolute;
+z-index: 2;
+width: 300px;
+left: 50%;
+margin-left: -150px;
+height: 150px;
+top: 30%;
+background: #383838;
+border-radius: 7px;
+font-family: 'New Tegomin', serif;
+visibility: hidden;
+}
+#extensionInfo {
+position: absolute;
+top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 16px;
+color: #f3e3c2;
+user-select: none;
+text-align: justify;
+}
+.extensionButtons {
+height: 40px;
+background: transparent;
+border: 1px solid #f3e3c2;
+border-radius: 2px;
+cursor: pointer;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 15px;
+}
+.extensionButtons:hover {
+background: #282828;
+}
+#cancelExtension {
+position: absolute;
+bottom: 15px;
+right: 51%;
+}
+#confirnExtension {
+position: absolute;
+bottom: 15px;
+left: 51%;
+}
 </style>
 <body>
 <div id="pre">
@@ -195,6 +274,17 @@ search
 <a href="about">
 <p id="new">NEW: giving you smarter and more relevant results.</p></a>
 
+<!-- extension download section -->
+<button id="getExtension" onclick="showExtension()">Get extension</button>
+
+<div id="confirmation">
+<p id="extensionInfo">This extension will only work on Chrome, Brave, Opera, or Edge.</p>
+<button class="extensionButtons" id="cancelExtension" onclick="hideExtension()">Cancel</button>
+<a href="https://github.com/LB123658/browse-in-darkness-chrome-extension/archive/refs/heads/main.zip">
+<button class="extensionButtons" id="confirnExtension" onclick="hideExtension()">Download</button></a>
+</div>
+
+<!-- menu bar -->
 <button id="menu" onclick="openDiv()"><span class="material-icons" style="font-size: 30px;">menu</span></button>
 <div id="menuDiv">
 <button id="close" onclick="hideDiv()"><span class="material-icons" style="font-size: 30px;">close</span></button>
@@ -202,6 +292,7 @@ search
 <button id="s">About</button></a>
 <a href="https://lb123658.github.io/g-browser/privacy">
 <button id="privacy">Privacy</button></a>
+<button id="extension" onclick="showExtension()">Extension</button>
 </div>
 <script>
 // other versions of page
@@ -216,6 +307,10 @@ document.getElementById("new").style.display = "none";
 document.getElementById("s").innerHTML = "Acerca de";
 document.getElementById("privacy").innerHTML = "Privacidad";
 document.getElementById("t").innerHTML = "Buscar en la oscuridad";
+document.getElementById("getExtension").innerHTML = "Añadir a su navegador";
+document.getElementById("extensionInfo").innerHTML = "Solo funciona con Chrome, Brave, Opera, o Edge.";
+document.getElementById("cancelExtension").innerHTML = "Cancelar";
+document.getElementById("confirmExtension").innerHTML = "Descargar";
 } else if (window.location.search == "?version=current") {
 document.getElementById("quote").innerHTML = "Browse in Darkness, the current version";
 document.getElementById("t").innerHTML = "Browse in Darkness";
@@ -228,6 +323,12 @@ document.getElementById("menuDiv").style.visibility = "visible";
 }
 function hideDiv() {
 document.getElementById("menuDiv").style.visibility = "hidden";
+}
+function showExtension() {
+document.getElementById("confirmation").style.visibility = "visible";
+}
+function hideExtension() {
+document.getElementById("confirmation").style.visibility = "hidden";
 }
 </script>
 <script src="version.js"></script>
