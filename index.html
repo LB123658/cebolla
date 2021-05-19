@@ -281,7 +281,7 @@ search
 <p id="extensionInfo">This extension will only work on Chrome, Brave, Opera, or Edge.</p>
 <button class="extensionButtons" id="cancelExtension" onclick="hideExtension()">Cancel</button>
 <a href="https://github.com/LB123658/browse-in-darkness-chrome-extension/archive/refs/heads/main.zip">
-<button class="extensionButtons" id="confirnExtension" onclick="hideExtension()">Download</button></a>
+<button class="extensionButtons" id="confirnExtension" onclick="hideExtension(); directions();">Download</button></a>
 </div>
 
 <!-- menu bar -->
@@ -314,6 +314,9 @@ document.getElementById("confirnExtension").innerHTML = "Descargar";
 } else if (window.location.search == "?version=current") {
 document.getElementById("quote").innerHTML = "Browse in Darkness, the current version";
 document.getElementById("t").innerHTML = "Browse in Darkness";
+} else if (window.location.search == "?extension=downloaded") {
+document.getElementById("quote").innerHTML = "Extension successfully added";
+document.getElementById("getExtension").style.visibility = "hidden";
 }
 // focus search bar
 document.getElementById("search").focus();
@@ -329,6 +332,9 @@ document.getElementById("confirmation").style.visibility = "visible";
 }
 function hideExtension() {
 document.getElementById("confirmation").style.visibility = "hidden";
+}
+function directions() {
+location.replace("https://lb123658.github.io/cebolla/extension");
 }
 </script>
 <script src="version.js"></script>
