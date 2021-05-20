@@ -40,24 +40,48 @@ animation-duration: 1.2s;
 animation-iteration-count: 1;
 }
 #s {
-position: absolute;
-top: 10px;
-left: 10px;
-height: 40px;
-color: #f3e3c2;
-font-family: 'New Tegomin', serif;
-border-radius: 6px;
 background: transparent;
-font-size: 22px;
-border: none;
-cursor: pointer;
-width: 120px;
+border: 2px solid #282828;
+border-radius: 20px;
+color: #f3e3c2;
+position: absolute;
+top: 15px;
+left: 10px;
+font-size: 20px;
+font-family: 'New Tegomin', serif;
+height: 40px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 7px;
 }
 #s:hover {
+cursor: pointer;
 background: #595858;
 }
 #s:focus {
-border: 1px solid lightgrey;
+border: 2px solid #f3e3c2;
+}
+#chrome {
+background: transparent;
+border: 2px solid #282828;
+border-radius: 20px;
+color: #f3e3c2;
+position: absolute;
+top: 15px;
+right: 10px;
+font-size: 20px;
+font-family: 'New Tegomin', serif;
+height: 40px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 7px;
+}
+#chrome:hover {
+cursor: pointer;
+background: #595858;
+}
+#chrome:focus {
+border: 2px solid #f3e3c2;
 }
 #text {
 color: #f3e3c2;
@@ -77,9 +101,12 @@ margin-right: 50px;
 </style>
 <body>
 <a href="https://lb123658.github.io/cebolla/?extension=downloaded" id="a">
-<button id="s">Go back</button></a>
+<button id="s">Back to Search</button></a>
+<a href="https://chrome.google.com/webstore/detail/browse-in-darkness/kggpheiglkchibdbkcmncjokdlmoppfk" target="_blank">
+<button id="chrome">Open Web Store</button></a>
+
 <img id="logo" src="https://lb123658.github.io/cebolla/favicon.png">
 <p id="title">How to install extension</p>
-<p id="text"><b>How to install the Browse in Darkness extension in a few easy steps*<br>1. Open the ZIP file that contains the extension and there will be a folder inside that contains the extension.<br>2. Go to the extensions page of your browser. For Chrome that is "chrome://extensions" and Brave is "brave://extensions".<br>3. Click on the "Developer Mode" switch.<br>4. Click on the "Load unpacked" button and select the file that contains the extension.<br>5. The extension should be ready and will be in the extensions bar with a small yellow flame icon.<br><br>*For other browsers besides Brave and Chrome these steps may be different.</b> </p>
+<p id="text"><b>NEW: This extension is now available on the Chrome Web Store.<br><br>How to install the Browse in Darkness extension in a few easy steps*<br>1. Open the ZIP file that contains the extension and there will be a folder inside that contains the extension.<br>2. Go to the extensions page of your browser. For Chrome that is "chrome://extensions" and Brave is "brave://extensions".<br>3. Click on the "Developer Mode" switch.<br>4. Click on the "Load unpacked" button and select the file that contains the extension.<br>5. The extension should be ready and will be in the extensions bar with a small yellow flame icon.<br><br>*For other browsers besides Brave and Chrome these steps may be different.</b> </p>
 </body>
 </html>
