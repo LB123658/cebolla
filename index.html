@@ -60,13 +60,18 @@ height: 35.5px;
 background: #f3e3c2;
 color: #282828;
 opacity: 0.7;
-border: none;
+border: 2px solid #f3e3c2;
 cursor: pointer;
 user-select: none;
 border-radius: 0px 7px 7px 0px;
+padding-top: 4px;
 }
 #go:hover {
 opacity: 1;
+}
+#go:focus {
+background: #282828;
+color: #f3e3c2;
 }
 #quote {
 position: absolute;
@@ -102,7 +107,7 @@ outline-width: 0;
       user-select: none;
 }
 #new:hover {
-      text-decoration: underline;
+text-decoration: underline;
 }
 @keyframes animate {
   0% {transform: translate(0px, 80px); opacity: 0.0;}
@@ -116,6 +121,7 @@ color: #f3e3c2;
 position: absolute;
 top: 15px;
 right: 10px;
+border: none;
 }
 #menu:hover {
 cursor: pointer;
@@ -199,18 +205,25 @@ background: #595858;
 }
 #getExtension {
 background: transparent;
-border: 1px solid #f3e3c2;
-border-radius: 2px;
+border: 2px solid #282828;
+border-radius: 20px;
 color: #f3e3c2;
 position: absolute;
 top: 15px;
 left: 10px;
 font-size: 20px;
 font-family: 'New Tegomin', serif;
+height: 40px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 7px;
 }
 #getExtension:hover {
 cursor: pointer;
 background: #595858;
+}
+#getExtension:focus {
+border: 2px solid #f3e3c2;
 }
 #confirmation {
 position: absolute;
