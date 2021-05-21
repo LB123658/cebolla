@@ -126,7 +126,7 @@ border: 2px solid #f3e3c2;
 </head>
 <body>
 <div id="results">
-<a href="https://lb123658.github.io/cebolla/">
+<a href="https://lb123658.github.io/cebolla/" id="originalLink">
 <img src="https://lb123658.github.io/cebolla/favicon.png" id="topLogo"/></a>
 <p id="query">Browse in darkness.</p>
 <a href="https://duckduckgo.com" target="_blank" id="duckA">
@@ -222,6 +222,11 @@ document.getElementById("uk").innerHTML = fot.split(".")[0] + ".co.uk <span clas
 document.getElementById("cnA").href = "https://" + fot.split(".")[0] + ".cn";
 document.getElementById("cn").innerHTML = fot.split(".")[0] + ".cn <span class='material-icons' style='color:red; font-size: 30px;' title='Likely unsecure website'>lock_open</span>";
 } 
+// for mobile devices
+var mobileKey = location.search.split("?")[1];
+if (mobileKey.split("=")[0] == "s") {
+  document.getElementById("originalLink").href = "https://lb123658.github.io/cebolla/?device=mobile";
+}
 </script>
 <script src="results.js"></script>
 </body>
