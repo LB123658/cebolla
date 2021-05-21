@@ -1,4 +1,4 @@
-if (window.innerWidth < 600) {
+if (window.outerWidth < 600) {
   window.location.search == "?device=mobile";
 } else {
   ;
