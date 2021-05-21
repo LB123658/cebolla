@@ -1,8 +1,5 @@
-$(window).resize(function() {
-  if ($(window).width() < 600) {
-  window.location.search = "?device=mobile";
-  }
- else {
-    ;
- }
-});
+if (window.innerWidth < 600) {
+  window.location.search == "?device=mobile";
+} else {
+  ;
+}
