@@ -226,6 +226,8 @@ document.getElementById("cn").innerHTML = fot.split(".")[0] + ".cn <span class='
 var mobileKey = location.search.split("?")[1];
 if (mobileKey.split("=")[0] == "s") {
   document.getElementById("originalLink").href = "https://lb123658.github.io/cebolla/?device=mobile";
+} else if (mobileKey.split("=")[0] == "p") {
+  document.getElementById("originalLink").href = "https://lb123658.github.io/cebolla/?l=es";
 }
 </script>
 <script src="results.js"></script>
