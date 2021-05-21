@@ -105,10 +105,6 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
 document.getElementById("com").innerHTML = "GitHub - where the world builds software <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 } else if (location.search.split("=")[1] == "GitHub") {
 document.getElementById("com").innerHTML = "GitHub - where the world builds software <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
-} else if (location.search.split("=")[1] == "mail") {
-document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practces - AVOID'>lock_open</span>";
-} else if (location.search.split("=")[1] == "Mail") {
-document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practces - AVOID'>lock_open</span>";
 } else if (location.search.split("=")[1] == "google+classroom") {
   document.getElementById("com").innerHTML = "Google Classroom - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com/h";
