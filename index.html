@@ -132,7 +132,7 @@ position: absolute;
 top: 50px;
 right: 10px;
 width: 100px;
-height: 120px;
+height: 150px;
 background: #383838;
 visibility: hidden;
 }
@@ -201,6 +201,23 @@ cursor: pointer;
 text-align: right;
 }
 #extension:hover {
+background: #595858;
+}
+#mobile {
+position: absolute;
+left: 0px;
+width: 100px;
+height: 30px;
+top: 120px;
+background: transparent;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: right;
+}
+#mobile:hover {
 background: #595858;
 }
 #getExtension {
@@ -307,6 +324,8 @@ search
 <a href="https://lb123658.github.io/g-browser/privacy">
 <button id="privacy">Privacy</button></a>
 <button id="extension" onclick="showExtension()">Extension</button>
+<a href="https://lb123658.github.io/cebolla?device=mobile">
+<button id="mobile">Mobile</button></a>
 </div>
 <script>
 // other versions of page
@@ -325,6 +344,7 @@ document.getElementById("getExtension").innerHTML = "Añadir a su navegador";
 document.getElementById("extensionInfo").innerHTML = "Solo funciona con Chrome, Brave, Opera, o Edge.";
 document.getElementById("cancelExtension").innerHTML = "Cancelar";
 document.getElementById("confirnExtension").innerHTML = "Descargar";
+document.getElementById("mobile").innerHTML = "Para móvil";
 } else if (window.location.search == "?version=current") {
 document.getElementById("quote").innerHTML = "Browse in Darkness, the current version";
 document.getElementById("t").innerHTML = "Browse in Darkness";
@@ -353,6 +373,5 @@ document.getElementById("getExtension").innerHTML = "How to install extension";
 document.getElementById("downloadLink").href = "https://lb123658.github.io/cebolla/extension";
 }
 </script>
-<script src="version.js"></script>
 </body>
 </html>
