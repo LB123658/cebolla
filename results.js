@@ -12,19 +12,55 @@ sa.href = "https://www.google.com/";
 } else if (location.search.split("=")[1] == "yandex") {
 document.getElementById("com").innerHTML = "Yandex.com - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Яндекс - официальный сайт <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("site").innerHTML = "Yandex.kz - Яндекс қазақстан <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("siteA").href = "https://yandex.kz";
+document.getElementById("de").innerHTML = "Yandex.Translate - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("deA").href = "https://translate.yandex.com/";
+document.getElementById("cn").innerHTML = "Yandex.Maps - search for places <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://yandex.com/maps";
+document.getElementById("uk").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://mail.yandex.com/";
 s.innerHTML = "Yandex";
 sa.href = "https://yandex.com/";
 } else if (location.search.split("=")[1] == "Yandex") {
 document.getElementById("com").innerHTML = "Yandex.com - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Яндекс - официальный сайт <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("site").innerHTML = "Yandex.kz - Яндекс қазақстан <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("siteA").href = "https://yandex.kz";
+document.getElementById("de").innerHTML = "Yandex.Translate - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("deA").href = "https://translate.yandex.com/";
+document.getElementById("cn").innerHTML = "Yandex.Maps - search for places <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://yandex.com/maps";
+document.getElementById("uk").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://mail.yandex.com/";
 s.innerHTML = "Yandex";
 sa.href = "https://yandex.com/";
 } else if (location.search.split("=")[1] == "gmail") {
 document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
 s.innerHTML = "Gmail";
 sa.href = "https://gmail.com/";
 } else if (location.search.split("=")[1] == "Gmail") {
 document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
 s.innerHTML = "Gmail";
 sa.href = "https://gmail.com/";
 } else if (location.search.split("=")[1] == "YouTube") {
@@ -478,7 +514,116 @@ document.getElementById("ru").innerHTML = "Mail.ru <span class='material-icons' 
   document.getElementById("cnA").href = "https://www.cnn.com/";
   document.getElementById("uk").innerHTML = "BBC news <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.bbc.com/news";
-} else {
+} else if (location.search.split("=")[1] == "email") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "Email") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "mail") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "Mail") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "email+sign+in") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "Email+sign+in") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "inbox") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "Inbox") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+} else if (location.search.split("=")[1] == "mailbox") {
+document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
+document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ruA").href = "https://mail.yandex.com/";
+document.getElementById("site").innerHTML = "Outlook Mail <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Better privacy practices'>lock</span>";
+document.getElementById("siteA").href = "https://outlook.live.com/";
+document.getElementById("de").innerHTML = "StartMail - Private Email <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
+document.getElementById("deA").href = "https://www.startmail.com/en/";
+document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("cnA").href = "https://mail.yahoo.com/";
+document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
+document.getElementById("ukA").href = "https://www.usps.com/";
+}
+else {
   s.innerHTML = "Search";
 }
 // launch button
