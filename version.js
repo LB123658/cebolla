@@ -1,5 +1,8 @@
-if (window.outerWidth < 600) {
-  window.location.search == "?device=mobile";
-} else {
-  ;
-}
+$(window).resize(function() {
+  if ($(window).width() < 960) {
+     window.location.search == "?device=mobile";
+  }
+ else {
+    ;
+ }
+});
