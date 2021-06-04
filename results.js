@@ -1,14 +1,12 @@
 // for specific websites
-var s = document.getElementById("s");
-var sa = document.getElementById("sa");
 if (location.search.split("=")[1] == "google") {
 document.getElementById("com").innerHTML = "Google - search the world's information <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
-s.innerHTML = "Google";
-sa.href = "https://www.google.com/";
+document.getElementById("s").innerHTML = "Google";
+document.getElementById("sa").href = "https://www.google.com/";
 } else if (location.search.split("=")[1] == "Google") {
 document.getElementById("com").innerHTML = "Google - search the world's information <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
-s.innerHTML = "Google";
-sa.href = "https://www.google.com/";
+document.getElementById("s").innerHTML = "Google";
+document.getElementById("sa").href = "https://www.google.com/";
 } else if (location.search.split("=")[1] == "yandex") {
 document.getElementById("com").innerHTML = "Yandex.com - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Яндекс - официальный сайт <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
@@ -20,8 +18,8 @@ document.getElementById("cn").innerHTML = "Yandex.Maps - search for places <span
 document.getElementById("cnA").href = "https://yandex.com/maps";
 document.getElementById("uk").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://mail.yandex.com/";
-s.innerHTML = "Yandex";
-sa.href = "https://yandex.com/";
+document.getElementById("s").innerHTML = "Yandex";
+document.getElementById("sa").href = "https://yandex.com/";
 } else if (location.search.split("=")[1] == "Yandex") {
 document.getElementById("com").innerHTML = "Yandex.com - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Яндекс - официальный сайт <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
@@ -33,8 +31,8 @@ document.getElementById("cn").innerHTML = "Yandex.Maps - search for places <span
 document.getElementById("cnA").href = "https://yandex.com/maps";
 document.getElementById("uk").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://mail.yandex.com/";
-s.innerHTML = "Yandex";
-sa.href = "https://yandex.com/";
+document.getElementById("s").innerHTML = "Yandex";
+document.getElementById("sa").href = "https://yandex.com/";
 } else if (location.search.split("=")[1] == "gmail") {
 document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
@@ -47,8 +45,8 @@ document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='mat
 document.getElementById("cnA").href = "https://mail.yahoo.com/";
 document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.usps.com/";
-s.innerHTML = "Gmail";
-sa.href = "https://gmail.com/";
+document.getElementById("s").innerHTML = "Gmail";
+document.getElementById("sa").href = "https://gmail.com/";
 } else if (location.search.split("=")[1] == "Gmail") {
 document.getElementById("com").innerHTML = "Gmail - email from Google <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ru").innerHTML = "Yandex.Mail - free reliable email <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
@@ -61,44 +59,44 @@ document.getElementById("cn").innerHTML = "Yahoo mail - sign in <span class='mat
 document.getElementById("cnA").href = "https://mail.yahoo.com/";
 document.getElementById("uk").innerHTML = "US Postal Service <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.usps.com/";
-s.innerHTML = "Gmail";
-sa.href = "https://gmail.com/";
+document.getElementById("s").innerHTML = "Gmail";
+document.getElementById("sa").href = "https://gmail.com/";
 } else if (location.search.split("=")[1] == "YouTube") {
 document.getElementById("com").innerHTML = "YouTube - enjoy your favorite videos <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
-s.innerHTML = "YouTube";
-sa.href = "https://youtube.com/";
+document.getElementById("s").innerHTML = "YouTube";
+document.getElementById("sa").href = "https://youtube.com/";
 } else if (location.search.split("=")[1] == "Youtube") {
 document.getElementById("com").innerHTML = "YouTube - enjoy your favorite videos <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
-s.innerHTML = "YouTube";
-sa.href = "https://youtube.com/";
+document.getElementById("s").innerHTML = "YouTube";
+document.getElementById("sa").href = "https://youtube.com/";
 } else if (location.search.split("=")[1] == "youtube") {
 document.getElementById("com").innerHTML = "YouTube - enjoy your favorite videos <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
-s.innerHTML = "YouTube";
-sa.href = "https://youtube.com/";
+document.getElementById("s").innerHTML = "YouTube";
+document.getElementById("sa").href = "https://youtube.com/";
 } else if (location.search.split("=")[1] == "YouTube") {
 document.getElementById("com").innerHTML = "YouTube - enjoy your favorite videos <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
-s.innerHTML = "YouTube";
-sa.href = "https://youtube.com/";
+document.getElementById("s").innerHTML = "YouTube";
+document.getElementById("sa").href = "https://youtube.com/";
 } else if (location.search.split("=")[1] == "apple") {
 document.getElementById("com").innerHTML = "Apple - official site <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Verified Apple, Inc'>lock</span>";
 } else if (location.search.split("=")[1] == "Apple") {
 document.getElementById("com").innerHTML = "Apple - official site <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Verified Apple, Inc'>lock</span>";
 } else if (location.search.split("=")[1] == "ecosia") {
 document.getElementById("com").innerHTML = "Ecosia - the search engine that plants trees <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Carbon negative company'>grass</span>";
-s.innerHTML = "Ecosia";
-sa.href = "https://ecosia.org/";
+document.getElementById("s").innerHTML = "Ecosia";
+document.getElementById("sa").href = "https://ecosia.org/";
 } else if (location.search.split("=")[1] == "Ecosia") {
 document.getElementById("com").innerHTML = "Ecosia - the search engine that plants trees <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Carbon negative company'>grass</span>";
-s.innerHTML = "Ecosia";
-sa.href = "https://ecosia.org/";
+document.getElementById("s").innerHTML = "Ecosia";
+document.getElementById("sa").href = "https://ecosia.org/";
 } else if (location.search.split("=")[1] == "wikipedia") {
 document.getElementById("com").innerHTML = "Wikipedia - the free encyclopedia <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
-s.innerHTML = "Wikipedia";
-sa.href = "https://wikipedia.org/";
+document.getElementById("s").innerHTML = "Wikipedia";
+document.getElementById("sa").href = "https://wikipedia.org/";
 } else if (location.search.split("=")[1] == "Wikipedia") {
 document.getElementById("com").innerHTML = "Wikipedia - the free encyclopedia <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
-s.innerHTML = "Wikipedia";
-sa.href = "https://wikipedia.org/";
+document.getElementById("s").innerHTML = "Wikipedia";
+document.getElementById("sa").href = "https://wikipedia.org/";
 } else if (location.search.split("=")[1] == "github") {
 document.getElementById("com").innerHTML = "GitHub - where the world builds software <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 } else if (location.search.split("=")[1] == "Github") {
@@ -108,83 +106,83 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
 } else if (location.search.split("=")[1] == "google+classroom") {
   document.getElementById("com").innerHTML = "Google Classroom - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com/h";
-  s.innerHTML = "Classroom";
-  sa.href = "https://classroom.google.com/";
+  document.getElementById("s").innerHTML = "Classroom";
+  document.getElementById("sa").href = "https://classroom.google.com/";
 } else if (location.search.split("=")[1] == "google+Classroom") {
   document.getElementById("com").innerHTML = "Google Classroom - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com/h";
-  s.innerHTML = "Classroom";
-  sa.href = "https://classroom.google.com/";
+  document.getElementById("s").innerHTML = "Classroom";
+  document.getElementById("sa").href = "https://classroom.google.com/";
 } else if (location.search.split("=")[1] == "Google+classroom") {
   document.getElementById("com").innerHTML = "Google Classroom - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com/h";
-  s.innerHTML = "Classroom";
-  sa.href = "https://classroom.google.com/";
+  document.getElementById("s").innerHTML = "Classroom";
+  document.getElementById("sa").href = "https://classroom.google.com/";
 } else if (location.search.split("=")[1] == "Google+Classroom") {
   document.getElementById("com").innerHTML = "Google Classroom - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com/h";
-  s.innerHTML = "Classroom";
-  sa.href = "https://classroom.google.com/";
+  document.getElementById("s").innerHTML = "Classroom";
+  document.getElementById("sa").href = "https://classroom.google.com/";
 } else if (location.search.split("=")[1] == "google+maps") {
   document.getElementById("com").innerHTML = "Google Maps - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://maps.google.com";
-  s.innerHTML = "Maps";
-  sa.href = "https://maps.google.com/";
+  document.getElementById("s").innerHTML = "Maps";
+  document.getElementById("sa").href = "https://maps.google.com/";
 } else if (location.search.split("=")[1] == "google+Maps") {
   document.getElementById("com").innerHTML = "Google Maps - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://maps.google.com";
-  s.innerHTML = "Maps";
-  sa.href = "https://maps.google.com/";
+  document.getElementById("s").innerHTML = "Maps";
+  document.getElementById("sa").href = "https://maps.google.com/";
 } else if (location.search.split("=")[1] == "Google+maps") {
   document.getElementById("com").innerHTML = "Google Maps - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://maps.google.com";
-  s.innerHTML = "Maps";
-  sa.href = "https://maps.google.com/";
+  document.getElementById("s").innerHTML = "Maps";
+  document.getElementById("sa").href = "https://maps.google.com/";
 } else if (location.search.split("=")[1] == "Google+Maps") {
   document.getElementById("com").innerHTML = "Google Maps - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://maps.google.com";
-  s.innerHTML = "Maps";
-  sa.href = "https://maps.google.com/";
+  document.getElementById("s").innerHTML = "Maps";
+  document.getElementById("sa").href = "https://maps.google.com/";
 } else if (location.search.split("=")[1] == "google+drive") {
   document.getElementById("com").innerHTML = "Google Drive - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://drive.google.com";
-  s.innerHTML = "Drive";
-  sa.href = "https://drive.google.com/";
+  document.getElementById("s").innerHTML = "Drive";
+  document.getElementById("sa").href = "https://drive.google.com/";
 } else if (location.search.split("=")[1] == "google+Drive") {
   document.getElementById("com").innerHTML = "Google Drive - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://drive.google.com";
-  s.innerHTML = "Drive";
-  sa.href = "https://drive.google.com/";
+  document.getElementById("s").innerHTML = "Drive";
+  document.getElementById("sa").href = "https://drive.google.com/";
 } else if (location.search.split("=")[1] == "Google+drive") {
   document.getElementById("com").innerHTML = "Google Drive - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://drive.google.com";
-  s.innerHTML = "Drive";
-  sa.href = "https://drive.google.com/";
+  document.getElementById("s").innerHTML = "Drive";
+  document.getElementById("sa").href = "https://drive.google.com/";
 } else if (location.search.split("=")[1] == "Google+Drive") {
   document.getElementById("com").innerHTML = "Google Drive - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://drive.google.com";
-  s.innerHTML = "Drive";
-  sa.href = "https://drive.google.com/";
+  document.getElementById("s").innerHTML = "Drive";
+  document.getElementById("sa").href = "https://drive.google.com/";
 } else if (location.search.split("=")[1] == "google+docs") {
   document.getElementById("com").innerHTML = "Google Docs - create and edit documents<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://docs.google.com";
-  s.innerHTML = "Docs";
-  sa.href = "https://docs.google.com/";
+  document.getElementById("s").innerHTML = "Docs";
+  document.getElementById("sa").href = "https://docs.google.com/";
 } else if (location.search.split("=")[1] == "google+Docs") {
   document.getElementById("com").innerHTML = "Google Docs - create and edit documents<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://docs.google.com";
-  s.innerHTML = "Docs";
-  sa.href = "https://docs.google.com/";
+  document.getElementById("s").innerHTML = "Docs";
+  document.getElementById("sa").href = "https://docs.google.com/";
 } else if (location.search.split("=")[1] == "Google+docs") {
   document.getElementById("com").innerHTML = "Google Docs - create and edit documents<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://docs.google.com";
-  s.innerHTML = "Docs";
-  sa.href = "https://docs.google.com/";
+  document.getElementById("s").innerHTML = "Docs";
+  document.getElementById("sa").href = "https://docs.google.com/";
 } else if (location.search.split("=")[1] == "Google+Docs") {
   document.getElementById("com").innerHTML = "Google Docs - create and edit documents<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://docs.google.com";
-  s.innerHTML = "Docs";
-  sa.href = "https://docs.google.com/";
+  document.getElementById("s").innerHTML = "Docs";
+  document.getElementById("sa").href = "https://docs.google.com/";
 } else if (location.search.split("=")[1] == "google+sites") {
   document.getElementById("com").innerHTML = "Google Sites - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://sites.google.com";
@@ -200,68 +198,68 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
 } else if (location.search.split("=")[1] == "google+slides") {
   document.getElementById("com").innerHTML = "Google Slides - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://slides.google.com";
-  s.innerHTML = "Slides";
-  sa.href = "https://slides.google.com/";
+  document.getElementById("s").innerHTML = "Slides";
+  document.getElementById("sa").href = "https://slides.google.com/";
 } else if (location.search.split("=")[1] == "google+Slides") {
   document.getElementById("com").innerHTML = "Google Slides - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://slides.google.com";
-  s.innerHTML = "Slides";
-  sa.href = "https://slides.google.com/";
+  document.getElementById("s").innerHTML = "Slides";
+  document.getElementById("sa").href = "https://slides.google.com/";
 } else if (location.search.split("=")[1] == "Google+slides") {
   document.getElementById("com").innerHTML = "Google Slides - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://slides.google.com";
-  s.innerHTML = "Slides";
-  sa.href = "https://slides.google.com/";
+  document.getElementById("s").innerHTML = "Slides";
+  document.getElementById("sa").href = "https://slides.google.com/";
 } else if (location.search.split("=")[1] == "Google+Slides") {
   document.getElementById("com").innerHTML = "Google Slides - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://slides.google.com";
-  s.innerHTML = "Slides";
-  sa.href = "https://slides.google.com/";
+  document.getElementById("s").innerHTML = "Slides";
+  document.getElementById("sa").href = "https://slides.google.com/";
 } else if (location.search.split("=")[1] == "vimeo") {
   document.getElementById("com").innerHTML = "Vimeo - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://vimeo.com";
-  s.innerHTML = "Vimeo";
-  sa.href = "https://vimeo.com/";
+  document.getElementById("s").innerHTML = "Vimeo";
+  document.getElementById("sa").href = "https://vimeo.com/";
 } else if (location.search.split("=")[1] == "Vimeo") {
   document.getElementById("com").innerHTML = "Vimeo - official site<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://vimeo.com";
-  s.innerHTML = "Vimeo";
-  sa.href = "https://vimeo.com/";
+  document.getElementById("s").innerHTML = "Vimeo";
+  document.getElementById("sa").href = "https://vimeo.com/";
 } else if (location.search.split("=")[1] == "instagram") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
-  s.innerHTML = "Instagram";
-  sa.href = "https://instagram.com";
+  document.getElementById("s").innerHTML = "Instagram";
+  document.getElementById("sa").href = "https://instagram.com";
 } else if (location.search.split("=")[1] == "Instagram") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
-  s.innerHTML = "Instagram";
-  sa.href = "https://instagram.com";
+  document.getElementById("s").innerHTML = "Instagram";
+  document.getElementById("sa").href = "https://instagram.com";
 } else if (location.search.split("=")[1] == "insta") {
   document.getElementById("com").innerHTML = "Instagram - official site<span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://instagram.com";
-  s.innerHTML = "Instagram";
-  sa.href = "https://instagram.com";
+  document.getElementById("s").innerHTML = "Instagram";
+  document.getElementById("sa").href = "https://instagram.com";
 } else if (location.search.split("=")[1] == "DuckDuckGo") {
   document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
   document.getElementById("comA").href = "https://duckduckgo.com";
-  s.innerHTML = "DuckDuckGo";
-  sa.href = "https://duckduckgo.com";
+  document.getElementById("s").innerHTML = "DuckDuckGo";
+  document.getElementById("sa").href = "https://duckduckgo.com";
 } else if (location.search.split("=")[1] == "duckduckgo") {
   document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
   document.getElementById("comA").href = "https://duckduckgo.com";
-  s.innerHTML = "DuckDuckGo";
-  sa.href = "https://duckduckgo.com";
+  document.getElementById("s").innerHTML = "DuckDuckGo";
+  document.getElementById("sa").href = "https://duckduckgo.com";
 } else if (location.search.split("=")[1] == "ddg") {
   document.getElementById("com").innerHTML = "DuckDuckGo – Privacy, simplified. <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='No tracking'>lock</span>";
   document.getElementById("comA").href = "https://start.duckduckgo.com";
-  s.innerHTML = "DuckDuckGo";
-  sa.href = "https://start.duckduckgo.com";
+  document.getElementById("s").innerHTML = "DuckDuckGo";
+  document.getElementById("sa").href = "https://start.duckduckgo.com";
 } else if (location.search.split("=")[1] == "class") {
   document.getElementById("com").innerHTML = "Google Classroom - Sign in <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://classroom.google.com";
-  s.innerHTML = "Classroom";
-  sa.href = "https://classroom.google.com";
+  document.getElementById("s").innerHTML = "Classroom";
+  document.getElementById("sa").href = "https://classroom.google.com";
   // BELOW: results for chrome or browser download
 } else if (location.search.split("=")[1] == "google+chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
@@ -276,8 +274,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "Google+chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -291,8 +289,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "google+Chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -306,8 +304,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "Google+Chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -321,8 +319,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -336,8 +334,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "Chrome") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -351,8 +349,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "browser") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -366,8 +364,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "browsers") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -381,8 +379,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "Browser") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -396,8 +394,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "Browsers") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -411,8 +409,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "google+chrome+download") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -426,8 +424,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "chrome+download") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -441,8 +439,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "browser+download") {
   document.getElementById("com").innerHTML = "Google Chrome Download <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://chrome.google.com";
@@ -456,8 +454,8 @@ document.getElementById("com").innerHTML = "GitHub - where the world builds soft
   document.getElementById("cnA").href = "https://amifloced.org";
   document.getElementById("uk").innerHTML = "Seznam browser download <span class='material-icons' style='color: #ffc000; font-size: 30px;' title='Moderate privacy practices'>person_search</span>";
   document.getElementById("ukA").href = "https://www.seznam.cz/prohlizec";
-  s.innerHTML = "Chrome";
-  sa.href = "https://chrome.google.com";
+  document.getElementById("s").innerHTML = "Chrome";
+  document.getElementById("sa").href = "https://chrome.google.com";
 } else if (location.search.split("=")[1] == "news") {
   document.getElementById("com").innerHTML = "Google news <span class='material-icons' style='color: red; font-size: 30px;' title='Poor privacy practices and tracking'>person_search</span>";
   document.getElementById("comA").href = "https://news.google.com";
@@ -919,8 +917,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -934,8 +932,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -949,8 +947,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -964,8 +962,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "music+to+listen+to") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -979,8 +977,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "popular+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -994,8 +992,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Popular+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1009,8 +1007,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1024,8 +1022,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1039,8 +1037,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+web+player") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1054,8 +1052,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+web+player") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1069,8 +1067,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1084,8 +1082,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1099,8 +1097,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+download") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1114,8 +1112,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+download") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1129,8 +1127,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "free+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1144,8 +1142,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Free+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1159,8 +1157,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "musica") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1174,8 +1172,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+sign+in") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1189,8 +1187,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+sign=+n") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1204,8 +1202,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Spotify";
-sa.href = "https://open.spotify.com";
+document.getElementById("s").innerHTML = "Spotify";
+document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1219,8 +1217,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1234,8 +1232,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "upload+to+soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1249,8 +1247,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Upload+to+soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1264,8 +1262,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "soundcloud+upload") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1279,8 +1277,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Soundcloud+upload") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1294,8 +1292,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "SoundCloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1309,8 +1307,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Soundcloud";
-sa.href = "https://soundcloud.com";
+document.getElementById("s").innerHTML = "Soundcloud";
+document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1324,8 +1322,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1339,8 +1337,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "is+apple+music+free") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1354,8 +1352,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Is+apple+music+free?") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1369,8 +1367,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "music.apple.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1384,8 +1382,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "apple+music+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1399,8 +1397,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1414,8 +1412,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Apple Music";
-sa.href = "https://music.apple.com/browse";
+document.getElementById("s").innerHTML = "Apple Music";
+document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Amazon+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1429,8 +1427,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Amazon Music";
-sa.href = "https://music.amazon.com";
+document.getElementById("s").innerHTML = "Amazon Music";
+document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "amazon+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1444,8 +1442,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Amazon Music";
-sa.href = "https://music.amazon.com";
+document.getElementById("s").innerHTML = "Amazon Music";
+document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "amazon+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1459,8 +1457,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Amazon Music";
-sa.href = "https://music.amazon.com";
+document.getElementById("s").innerHTML = "Amazon Music";
+document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "Amazon+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1474,8 +1472,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Amazon Music";
-sa.href = "https://music.amazon.com";
+document.getElementById("s").innerHTML = "Amazon Music";
+document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "music.amazon.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1489,8 +1487,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Amazon Music";
-sa.href = "https://music.amazon.com";
+document.getElementById("s").innerHTML = "Amazon Music";
+document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "youtube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1504,8 +1502,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "YouTube Music";
-sa.href = "https://music.youtube.com";
+document.getElementById("s").innerHTML = "YouTube Music";
+document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "Youtube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1519,8 +1517,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "YouTube Music";
-sa.href = "https://music.youtube.com";
+document.getElementById("s").innerHTML = "YouTube Music";
+document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "YouTube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1534,8 +1532,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "YouTube Music";
-sa.href = "https://music.youtube.com";
+document.getElementById("s").innerHTML = "YouTube Music";
+document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "music+on+youtube") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1549,8 +1547,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "YouTube Music";
-sa.href = "https://music.youtube.com";
+document.getElementById("s").innerHTML = "YouTube Music";
+document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "music.youtube.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1564,8 +1562,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "YouTube Music";
-sa.href = "https://music.youtube.com";
+document.getElementById("s").innerHTML = "YouTube Music";
+document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "pandora") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1579,8 +1577,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1594,8 +1592,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1609,8 +1607,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1624,8 +1622,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+radio") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1639,8 +1637,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora+radio") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1654,8 +1652,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1669,8 +1667,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1684,8 +1682,8 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "www.pandora.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
@@ -1699,11 +1697,10 @@ document.getElementById("cn").innerHTML = "YouTube Music <span class='material-i
 document.getElementById("cnA").href = "https://music.youtube.com";
 document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' style='color:red; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("ukA").href = "https://www.pandora.com/";
-s.innerHTML = "Pandora";
-sa.href = "https://www.pandora.com";
-} 
-else {
-  s.innerHTML = "Search";
+document.getElementById("s").innerHTML = "Pandora";
+document.getElementById("sa").href = "https://www.pandora.com";
+} else {
+  document.getElementById("s").innerHTML = "Search";
 }
 // launch button
 document.getElementById("s-button").style.visibility = "visible";
