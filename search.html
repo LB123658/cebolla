@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title id="t">Search results</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">  
+<link rel='icon' href='https://lb123658.github.io/cebolla/favicon.png' type='image/png'/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#topLogo {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 70px;
+height: 70px;
+cursor: pointer;
+}
+#query {
+position: absolute;
+top: 1px;
+left: 80px;
+color: #f3e3c2;
+font-family: 'New Tegomin', serif;
+font-size: 20px;
+cursor: default;
+user-select: none;
+width: 350px;
+text-overflow: ellipsis;
+}
+.link {
+color: #f3e3c2;
+height: 100px;
+width: 90%;
+font-family: 'New Tegomin', serif;
+font-size: 20px;
+cursor: pointer;
+border: none;
+background: #282828;
+text-align: left;
+}
+.link:hover {
+background-color: #4a4a4a;
+}
+#duck {
+position: absolute;
+top: 100px;
+left: 5%;
+}
+#startpage {
+position: absolute;
+top: 200px;
+left: 5%;
+}
+#qwant {
+position: absolute;
+top: 300px;
+left: 5%;
+}
+#ecosia {
+position: absolute;
+top: 400px;
+left: 5%;
+}
+#com {
+position: absolute;
+top: 500px;
+left: 5%;
+}
+#ru {
+position: absolute;
+top: 600px;
+left: 5%;
+}
+#site {
+position: absolute;
+top: 700px;
+left: 5%;
+}
+#de {
+position: absolute;
+top: 800px;
+left: 5%;
+}
+#cn {
+position: absolute;
+top: 900px;
+left: 5%;
+}
+#uk {
+position: absolute;
+top: 1000px;
+left: 5%;
+}
+#results {
+visibility: visible;
+}
+body {
+background: #282828;
+}
+.material-icons {
+float: right;
+visibility: visible;
+}
+.search-option {
+background: #5c77d6;
+border: 2px solid #7289DA;
+border-radius: 20px;
+color: #f3e3c2;
+font-size: 20px;
+font-family: 'New Tegomin', serif;
+height: 40px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 7px;
+transition: transform .2s;
+margin: 15px 10px 0px 0px;
+float: right;
+}
+.search-option:hover {
+cursor: pointer;
+opacity: 0.8;
+transform: scale(1.08);
+}
+.search-option:focus {
+border: 2px solid #f3e3c2;
+}
+.quick {
+background: #5c77d6;
+border: 2px solid #7289DA;
+border-radius: 20px;
+color: #f3e3c2;
+font-size: 20px;
+font-family: 'New Tegomin', serif;
+height: 40px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 7px;
+transition: transform .2s;
+margin: 15px 10px 0px 0px;
+float: right;
+}
+.quick:hover {
+cursor: pointer;
+opacity: 0.8;
+transform: scale(1.08);
+}
+.quick:focus {
+border: 2px solid #f3e3c2;
+}
+
+#topbar {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 70px;
+background: #7289DA;
+z-index: 1;
+}
+
+@media screen and (max-width: 860px) {
+  .search-option {
+    visibility: hidden;
+  }
+  #query {
+    width: 75%;
+  }
+}
+</style>
+</head>
+<body>
+<div id="topbar">
+<a href="https://lb123658.github.io/cebolla/" id="originalLink">
+<img src="https://lb123658.github.io/cebolla/favicon.png" id="topLogo" title="Back to search page"></a>
+<p id="query">Browse in darkness.</p>
+<a href="https://lb123658.github.io/cebolla/?page=new" target="_blank" id="sa">
+<button id="s-button" title="Open in new tab" class="quick"><span id="s">Search</span> <span class="material-icons"></span></button></a>
+
+<a href="#" id="musicA">
+<button id="m-button" class="search-option" title="Music search">Music</button></a>
+
+<a href="#" id="vidA">
+<button id="vid-button" class="search-option" title="Video search">Videos</button></a>
+
+<a href="#" id="imgA">
+<button id="img-button" class="search-option" title="Image search">Images</button></a>
+</div>
+
+<div id="results">
+<a href="https://duckduckgo.com" target="_blank" id="duckA">
+<button class="link" id="duck">DuckDuckGo</button></a>
+
+<a href="https://startpage.com" target="_blank" id="startpageA">
+<button class="link" id="startpage">Startpage</button></a>
+
+<a href="https://qwant.com" target="_blank" id="qwantA">
+<button class="link" id="qwant">Qwant</button></a>
+
+<a href="https://ecosia.org" target="_blank" id="ecosiaA">
+<button class="link" id="ecosia">Ecosia</button></a>
+
+<a href="https://www.verisign.com/en_US/domain-names/com-domain-names/index.xhtml" target="_blank" id="comA">
+<button class="link" id="com">.com registry</button></a>
+
+<a href="https://cctld.ru/en/" target="_blank" id="ruA">
+<button class="link" id="ru">.ru registry</button></a>
+
+<a href="#" target="_blank" id="siteA">
+<button class="link" id="site">Browse in darkness</button></a>
+
+<a href="https://www.denic.de/en/" target="_blank" id="deA">
+<button class="link" id="de">.de registry</button></a>
+
+<a href="http://www.cnnic.cn/" target="_blank" id="cnA">
+<button class="link" id="cn">.cn registry</button></a>
+
+<a href="https://www.nominet.uk/" target="_blank" id="ukA">
+<button class="link" id="uk">.co.uk registry</button></a>
+</div>
+
+
+<script>
+if (window.location.search == "") {
+alert("You did not search anything but maybe these results will help");
+} else if (window.location.search == "?q=") {
+alert("You did not search anything but maybe these results will help");
+} else if (window.location.search == "?q= ") {
+alert("You did not search anything but maybe these results will help");
+} else {
+//search results
+document.getElementById("query").innerHTML = location.search.split("=")[1];
+//duckduckgo link
+document.getElementById("duck").innerHTML = location.search.split("=")[1] + " at DuckDuckGo <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Privacy based search engine'>lock</span>";
+document.getElementById("duckA").href = "https://duckduckgo.com/?q=" + location.search.split("=")[1];
+//startpage link
+document.getElementById("startpage").innerHTML = "Startpage - <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Privacy based search engine'>lock</span>" + location.search.split("=")[1];
+document.getElementById("startpageA").href = "https://startpage.com/sp/search?q=" + location.search.split("=")[1];
+//qwant link
+document.getElementById("qwant").innerHTML = "Qwant - <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Privacy based search engine'>lock</span>" + location.search.split("=")[1];
+document.getElementById("qwantA").href = "https://www.qwant.com/?q=" + location.search.split("=")[1];
+//ecosia link
+document.getElementById("ecosia").innerHTML = "Ecosia - <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Carbon negative company'>grass</span>" + location.search.split("=")[1];
+document.getElementById("ecosiaA").href = "https://www.ecosia.org/search?q=" + location.search.split("=")[1];
+//com link
+document.getElementById("com").innerHTML = location.search.split("=")[1] + ".com <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Possibly unsecure website'>lock_open</span>";
+document.getElementById("comA").href = "https://" + location.search.split("=")[1] + ".com";
+//ru link
+document.getElementById("ru").innerHTML = location.search.split("=")[1] + ".ru <span class='material-icons' style='color:red; font-size: 30px;' title='Likely unsecure website'>lock_open</span>";
+document.getElementById("ruA").href = "https://" + location.search.split("=")[1] + ".ru";
+//https link
+document.getElementById("site").innerHTML = location.search.split("=")[1] + " - official site <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Cannot verify site'>lock_open</span>";
+document.getElementById("siteA").href = "https://" + location.search.split("=")[1];
+//de link
+document.getElementById("de").innerHTML = location.search.split("=")[1] + ".de <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Cannot verify site'>lock_open</span>";
+document.getElementById("deA").href = "https://" + location.search.split("=")[1] + ".de";
+//cn link
+document.getElementById("cn").innerHTML = location.search.split("=")[1] + ".cn <span class='material-icons' style='color:red; font-size: 30px;' title='Cannot verify site'>lock_open</span>";
+document.getElementById("cnA").href = "https://" + location.search.split("=")[1] + ".cn";
+//uk link
+document.getElementById("uk").innerHTML = location.search.split("=")[1] + ".co.uk <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Cannot verify site'>lock_open</span>";
+document.getElementById("ukA").href = "https://" + location.search.split("=")[1] + ".co.uk";
+//title change
+document.getElementById("t").innerHTML = "Search results";
+}
+var fot = location.search.split("=")[1];
+if (fot.split(".")[1] == "com") {
+document.getElementById("comA").href = "https://" + location.search.split("=")[1];
+document.getElementById("com").innerHTML = location.search.split("=")[1] + "<span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Possibly unsecure website'>lock_open</span>";
+//.ru websites
+document.getElementById("ruA").href = "https://" + fot.split(".")[0] + ".ru";
+document.getElementById("ru").innerHTML = fot.split(".")[0] + ".ru <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Possibly unsecure website'>lock_open</span>";
+//.de websites
+document.getElementById("deA").href = "https://" + fot.split(".")[0] + ".de";
+document.getElementById("de").innerHTML = fot.split(".")[0] + ".de <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Possibly unsecure website'>lock_open</span>";
+//.co.uk websites
+document.getElementById("ukA").href = "https://" + fot.split(".")[0] + ".co.uk";
+document.getElementById("uk").innerHTML = fot.split(".")[0] + ".co.uk <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Possibly unsecure website'>lock_open</span>";
+//.cn websites
+document.getElementById("cnA").href = "https://" + fot.split(".")[0] + ".cn";
+document.getElementById("cn").innerHTML = fot.split(".")[0] + ".cn <span class='material-icons' style='color:red; font-size: 30px;' title='Likely unsecure website'>lock_open</span>";
+} 
+// for mobile devices
+var mobileKey = location.search.split("?")[1];
+if (mobileKey.split("=")[0] == "s") {
+  document.getElementById("originalLink").href = "https://lb123658.github.io/cebolla/?device=mobile";
+} else if (mobileKey.split("=")[0] == "p") {
+  document.getElementById("originalLink").href = "https://lb123658.github.io/cebolla/?l=es";
+}
+</script>
+<script src="results.js"></script>
+</body>
+</html>
