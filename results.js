@@ -1701,11 +1701,7 @@ document.getElementById("uk").innerHTML = "Pandora <span class='material-icons' 
 document.getElementById("ukA").href = "https://www.pandora.com/";
 s.innerHTML = "Pandora";
 sa.href = "https://www.pandora.com";
-} else if (location.search.split("=")[1] == "how+safe+are+these+results") {
-  document.getElementById("site").style.border = "2px solid #f3e3c2;
-  document.getElementById("site").innerHTML = "These results have not been checked and may not be safe.";
-  document.getElementById("siteA").innerHTML = "#";
-}
+} 
 else {
   s.innerHTML = "Search";
 }
