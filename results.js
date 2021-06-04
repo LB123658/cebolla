@@ -907,7 +907,7 @@ document.getElementById("ukA").href = "https://www.usps.com/";
 } else if (location.search.split("=")[1] == "music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -922,7 +922,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -937,7 +937,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -952,7 +952,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -967,7 +967,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "music+to+listen+to") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -982,7 +982,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "popular+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -997,7 +997,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Popular+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1012,7 +1012,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1027,7 +1027,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1042,7 +1042,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+web+player") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1057,7 +1057,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+web+player") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1072,7 +1072,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1087,7 +1087,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1102,7 +1102,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+download") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1117,7 +1117,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+download") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1132,7 +1132,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "free+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1147,7 +1147,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Free+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1162,7 +1162,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "musica") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1177,7 +1177,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "spotify+sign+in") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1192,7 +1192,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "Spotify+sign=+n") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1207,7 +1207,7 @@ document.getElementById("sa").href = "https://open.spotify.com";
 } else if (location.search.split("=")[1] == "soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1222,7 +1222,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1237,7 +1237,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "upload+to+soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1252,7 +1252,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Upload+to+soundcloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1267,7 +1267,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "soundcloud+upload") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1282,7 +1282,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "Soundcloud+upload") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1297,7 +1297,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "SoundCloud") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1312,7 +1312,7 @@ document.getElementById("sa").href = "https://soundcloud.com";
 } else if (location.search.split("=")[1] == "apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1327,7 +1327,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1342,7 +1342,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "is+apple+music+free") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1357,7 +1357,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Is+apple+music+free?") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1372,7 +1372,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "music.apple.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1387,7 +1387,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "apple+music+app") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1402,7 +1402,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Apple+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1417,7 +1417,7 @@ document.getElementById("sa").href = "https://music.apple.com/browse";
 } else if (location.search.split("=")[1] == "Amazon+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1432,7 +1432,7 @@ document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "amazon+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1447,7 +1447,7 @@ document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "amazon+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1462,7 +1462,7 @@ document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "Amazon+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1477,7 +1477,7 @@ document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "music.amazon.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1492,7 +1492,7 @@ document.getElementById("sa").href = "https://music.amazon.com";
 } else if (location.search.split("=")[1] == "youtube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1507,7 +1507,7 @@ document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "Youtube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1522,7 +1522,7 @@ document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "YouTube+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1537,7 +1537,7 @@ document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "music+on+youtube") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1552,7 +1552,7 @@ document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "music.youtube.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1567,7 +1567,7 @@ document.getElementById("sa").href = "https://music.youtube.com";
 } else if (location.search.split("=")[1] == "pandora") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1582,7 +1582,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1597,7 +1597,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1612,7 +1612,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora+music") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1627,7 +1627,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+radio") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1642,7 +1642,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "Pandora+radio") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1657,7 +1657,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora+music+streaming") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1672,7 +1672,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "pandora.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
@@ -1687,7 +1687,7 @@ document.getElementById("sa").href = "https://www.pandora.com";
 } else if (location.search.split("=")[1] == "www.pandora.com") {
 document.getElementById("com").innerHTML = "Spotify - Web player <span class='material-icons' style='color:#ffc000; font-size: 30px;' title='Poor privacy practices'>person_search</span>";
 document.getElementById("comA").href = "https://open.spotify.com";
-document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:#red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
+document.getElementById("ru").innerHTML = "Soundcloud <span class='material-icons' style='color:red; font-size: 30px;' title='Moderate privacy practices and tracking'>person_search</span>";
 document.getElementById("ruA").href = "https://soundcloud.com";
 document.getElementById("site").innerHTML = "Apple music <span class='material-icons' style='color:#3fba29; font-size: 30px;' title='Good privacy practices'>lock</span>";
 document.getElementById("siteA").href = "https://music.apple.com/browse";
